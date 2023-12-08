@@ -1,0 +1,14 @@
+// Import variables
+@use 'variables/colors';
+@use 'variables/fonts';
+
+// Import base styles
+@import 'base/reset';
+@import 'base/typography';
+@import 'base/utilities';
+
+// Import components
+@import 'components/card';
+
+// Import vendors
+@import 'vendors/bootstrap'; 
